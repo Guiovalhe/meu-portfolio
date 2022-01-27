@@ -283,12 +283,25 @@ width: 45%;
     content: "";
     position: absolute;
     height: 100%;
-    width: 80%;
     left: 0;
     top: 0;
     background: #1D98C8;
 }
-
+.skills-content .right .html::before{
+    width: 90%;
+}
+.skills-content .right .css::before{
+    width: 85%;
+}
+.skills-content .right .js::before{
+    width: 30%;
+}
+.skills-content .right .php::before{
+    width: 0%;
+}
+.skills-content .right .dj::before{
+    width: 100%;
+}
 
 
 
